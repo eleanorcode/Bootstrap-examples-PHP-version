@@ -1,0 +1,29 @@
+body {
+  padding: 1.5rem;
+}
+
+.bi {
+  width: 1em;
+  height: 1em;
+  fill: currentcolor;
+}
+
+.color-modes.dropdown-menu {
+  padding: .25rem;
+}
+
+li+li.color-modes.dropdown {
+  margin-top: .125rem;
+}
+
+.dropdown-item {
+  border-radius: .25rem;
+}
+
+.active {
+  font-weight: 600;
+}
+
+active.bi {
+  display: block !important;
+}
