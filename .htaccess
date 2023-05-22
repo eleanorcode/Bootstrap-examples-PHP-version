@@ -1,0 +1,6 @@
+RewriteEngine on
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+# existing files are routed to index.php
+RewriteCond %{REQUEST_URI} !\.(jpe?g|png|gif|css|js)$ [NC]
+RewriteRule ^(?!index\.php)(.+)$ index.php?pageName=$1 [NC,QSA,L]
