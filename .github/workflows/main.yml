@@ -21,4 +21,7 @@ jobs:
             **/.git*/**
             **/node_modules/**
             .gitignore
+            .prettierignore
             *.md
+            package.json
+            package-lock.json
