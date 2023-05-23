@@ -31,10 +31,10 @@ if (!isset($template)) {
 }?>
 
   <script type="module" src="js/main.js"></script>
-  <script src="js/color-modes.js"></script>
 
   <?php
 if (isset($template)) {
+  echo "<script src='js/color-modes.js'></script>";
   if ($template === 'dashboard') {
     echo '<script src="https://cdn.jsdelivr.net/npm/feather-icons@4.28.0/dist/feather.min.js"
   integrity="sha384-uO3SXW5IuS1ZpFPKugNNWqTZRRglnUJK6UAZ/gxOX80nxEkN9NcGZTftn6RzhGWE" crossorigin="anonymous"></script>';
