@@ -5,5 +5,3 @@ import "./bootstrap.bundle.min.js";
 document.querySelectorAll('[data-bs-toggle="popover"]').forEach((popover) => {
 	new bootstrap.Popover(popover);
 });
-
-sourceMappingURL = bootstrap.bundle.min.js.map;
