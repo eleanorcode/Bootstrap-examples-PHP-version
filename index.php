@@ -31,7 +31,7 @@ if (!isset($template)) {
 }?>
 
   <script type="module" src="js/main.js"></script>
-  <script src="js/color-modes"></script>
+  <script src="js/color-modes.js"></script>
 
   <?php
 if (isset($template)) {
