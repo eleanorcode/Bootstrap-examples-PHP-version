@@ -21,6 +21,10 @@ if (isset($template)) {
   if (file_exists("examples/{$template}/{$template}.css")) {
     echo "<link rel='stylesheet' href='examples/{$template}/{$template}.css'>";
   }
+    echo "<script src='js/color-modes.js'></script>";
+  if ($template === 'blog') {
+    echo "<link href='https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap' rel='stylesheet'>";
+  }
 } else {
   echo "<link rel='stylesheet' href='css/home.css'>";
 }
