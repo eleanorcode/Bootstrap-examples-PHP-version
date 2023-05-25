@@ -1,6 +1,6 @@
 {
-	"name": "Bootstrap",
-	"short_name": "Bootstrap",
+	"name": "Bootstrap examples",
+	"short_name": "BS examples",
 	"icons": [
 		{
 			"src": "android-chrome-192x192.png",
